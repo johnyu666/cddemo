@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class CommonController {
     @RequestMapping(value = "/books")
     public String findAllBooks(){
-        return "all books123";
+        return "all books456";
     }
 }
